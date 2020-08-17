@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Anshul Jain</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Anshul Jain!</h1>
-    		</div>
-		</div>
-		<footer>
-    		<ul>
-        		<li><a href="#">email</a></li>
-        		<li><a href="https://github.com/janshul95">github profile</a></li>
+
+<head>
+	<title>Anshul Jain</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+		<a class="navbar-brand" href="#">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+			<ul class="navbar-nav mr-4">
+				<li class="nav-item">
+					<a class="nav-link" data-value="about" href="#">About</a> </li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="blog" href="#">Blog</a> </li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="team" href="#"> Team</a> </li>
+				<li class="nav-item">
+					<a class="nav-link " data-value="contact" href="#">Contact</a> </li>
 			</ul>
-		</footer>
-	</body>
+		</div>
+	</nav>
+	<script type="text/javascript" src='js/main.js'></script>
+
+	<header class="header">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="description">
+				<h1> Hello ,Welcome To My official Website
+					<p>I am anshul Jain a software developer</p>
+					<button class="btn btn-outline-secondary btn-lg">See more</button> </h1>
+			</div>
+
+		</div>
+
+	</header>
+
+<!-- about section -->
+<div class="about" id="about">
+	<div class="container">
+	  <h1 class="text-center">About Me</h1>
+	  <div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="images/team-3.jpg" class="img-fluid">
+			<span class="text-justify">S.Web Developer</span>
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+			<h3>Anshul Jain</h3>
+			<p>
+
+			</p>
+		</div>
+	</div>
+	</div>
+</div>
+
+	
+
+	<!-- add Javasscript file from js file -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+
 </html>
